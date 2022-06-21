@@ -14,7 +14,7 @@ const app = {
       let state = document.getElementById('state code').value;
       let country = document.getElementById('country code').value;
       let limit = document.getElementById('limit').value;
-      let key = '6a0bdce8db2ffe5227b6c00d72a9e461';
+      let key = 'api key here';
       let lang = 'en';
       let units = 'metric';
       let url = `http://api.openweathermap.org/geo/1.0/direct?q=${city name},${state code},${country code}&limit=${limit}&appid=${API key}&lang=${lang}&units=${units}`;
